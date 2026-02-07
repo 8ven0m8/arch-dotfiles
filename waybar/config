@@ -38,6 +38,9 @@
             "custom/split",
             "custom/powerprofile",
             "custom/vpn",
+            "custom/closebracket",
+            "custom/openbracket",
+            "custom/wallpaper",
             "custom/closebracket"
         ]
     },
@@ -59,6 +62,12 @@
         "exec": "/home/pranjal/.config/waybar/scripts/vpn.sh",
         "interval": 2
     },
+
+    "custom/wallpaper": {
+        "exec": "~/.config/waybar/scripts/wallname.sh",
+        "interval": 5
+    },
+
 
 
     "group/workspaces":{
@@ -153,13 +162,13 @@
         "format": "CPU:{usage}%",
         "tooltip": false,
         "interval": 2,
-        "on-click": "kitty -e btop",
+        "on-click": "kitty -e btop"
     },
     "memory":{
         "format": "RAM:{}%",
         "tooltip": false,
         "interval": 2,
-        "on-click": "kitty -e btop",
+        "on-click": "kitty -e btop"
     },
 
     "group/brightvol": {
@@ -204,7 +213,6 @@
             "custom/split",
             "network",
             "custom/bluetooth",
-            // "custom/clipboard",
             "battery",
             "custom/swaync",
             "custom/closebracket"
