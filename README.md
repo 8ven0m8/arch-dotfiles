@@ -3,17 +3,17 @@
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/first.png" width="300"><br>
+      <img src="screenshots/first.png"><br?>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/second.png" width="300"><br>
+      <img src="screenshots/second.png"><br>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="screenshots/third.png" width="300"><br>
+      <img src="screenshots/third.png"><br>
     </td>
   </tr>
 </table>
