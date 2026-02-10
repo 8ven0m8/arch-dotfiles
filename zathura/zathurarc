@@ -1,83 +1,52 @@
-" -----------------------------------------------------------------------------
-" Zathura settings
-" -----------------------------------------------------------------------------
+# Lighthaus Color theme for Zathura
+# GIT: https://github.com/lighthaus-theme/zathura
+# Author: Adhiraj Sirohi (https://github.com/brutuski)
+#         Vasundhara Sharma (https://github.com/vasundhasauras)
 
-" Colors
-set default-bg              "rgba(44, 42, 36, 0.9)"
-set default-fg              "#DDD5C4"
-set statusbar-bg            "#2C2A24"
-set statusbar-fg            "#DDD5C4"
-set inputbar-bg             "#3A372F"
-set inputbar-fg             "#DDD5C4"
-set notification-error-bg   "#B05A5A"
-set notification-error-fg   "#DDD5C4"
-set notification-warning-bg "#D08B57"
-set notification-warning-fg "#2C2A24"
-set highlight-color         "#BFAA80"
-set highlight-active-color  "#D08B57"
-set completion-highlight-fg "#2C2A24"
-set completion-highlight-bg "#7699A3"
-set completion-bg           "#3A372F"
-set completion-fg           "#DDD5C4"
-set notification-bg         "#2C2A24"
-set notification-fg         "#DDD5C4"
-# set recolor                 "true"
-set recolor-lightcolor      "rgba(44, 42, 36, 0.8)"
-set recolor-darkcolor       "#DDD5C4"
-set recolor-reverse-video   "true"
-set recolor-keephue         "true"
+# Copyright © 2020-Present Lighthaus Theme
+# Copyright © 2020-Present Adhiraj Sirohi
+# Copyright © 2020-Present Vasundhara Sharma
 
-" Clipboard
-set selection-clipboard clipboard
 
-" Search
-set incremental-search true
-set search-hadjust true
+set recolor true
 
-" Autoadjust
-set adjust-open width
+# Lighthaus Colors:
 
-" Typography
-set font "Iosevka Nerd Font 12"
+set notification-error-bg       "#FC2929" 
+set notification-error-fg       "#18191E" 
+set notification-warning-bg     "#E25600" 
+set notification-warning-fg     "#18191E" 
+set notification-bg             "#D68EB2" 
+set notification-fg             "#18191E" 
 
-" -----------------------------------------------------------------------------
-" Zathura mappings
-" -----------------------------------------------------------------------------
-" remove status bar
-set guioptions none
-" Zoom in/out
-map [normal]     z zoom in
-map [normal]     Z zoom out
-map [fullscreen] z zoom in
-map [fullscreen] Z zoom out
+set completion-bg               "#18191E" 
+set completion-fg               "#44B273" 
+set completion-group-bg         "#18191E" 
+set completion-group-fg         "#ED722E" 
+set completion-highlight-bg     "#FFFF00" 
+set completion-highlight-fg     "#21252D" 
 
-" Toggle mode
-map [normal]     D toggle_page_mode
-map [fullscreen] D toggle_page_mode
+set index-bg                    "#18191E" 
+set index-fg                    "#44B273" 
+set index-active-bg             "#21252D" 
+set index-active-fg             "#FFFF00" 
 
-" Scroll
-map [normal]     u scroll half-up
-map [normal]     d scroll half-down
-map [fullscreen] u scroll half-up
-map [fullscreen] d scroll half-down
+set inputbar-bg                 "#21252D" 
+set inputbar-fg                 "#FFFADE" 
+set statusbar-bg                "#21252D" 
+set statusbar-fg                "#D68EB2" 
 
-" Fullscreen
-map [normal]     f toggle_fullscreen
-map [fullscreen] f toggle_fullscreen
+set highlight-color             "#D68EB2" 
+set highlight-active-color      "#ff79c6" 
 
-" Reload
-map [normal]     <C-r> reload
-map [fullscreen] <C-r> reload
+set default-bg                  "#18191E" 
+set default-fg                  "#FFEE79" 
 
-" Status bar
-map [normal]     b toggle_statusbar
-map [fullscreen] b toggle_statusbar
+set render-loading              true
+set render-loading-fg           "#FFEE79" 
+set render-loading-bg           "#18191E" 
 
-" Set width as in mupdf
-map [normal]     H adjust_window best-fit
-map [normal]     W adjust_window width
-map [fullscreen] H adjust_window best-fit
-map [fullscreen] W adjust_window width
+# Recolor mode settings
 
-map [normal]     i set recolor
-map [fullscreen] i set recolor
+set recolor-lightcolor          "#21252D" 
+set recolor-darkcolor           "#FFFADE" 
