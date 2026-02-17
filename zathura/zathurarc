@@ -7,6 +7,7 @@
 # Copyright © 2020-Present Adhiraj Sirohi
 # Copyright © 2020-Present Vasundhara Sharma
 
+set selection-clipboard clipboard
 
 set recolor true
 

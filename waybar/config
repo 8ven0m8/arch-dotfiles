@@ -249,9 +249,9 @@
     },
     "custom/swaync": {
       "format": "",
+      "return-type": "json",
       "exec": "swaync-client -swb",
-      "on-click": "swaync-client --toggle-panel",
-      "interval": 0
+      "on-click": "swaync-client --toggle-panel"
     },
 
 
